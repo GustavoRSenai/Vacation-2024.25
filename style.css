@@ -25,10 +25,16 @@ body{
     width: 100vw;
     height: 86.5vh;
 }
-.fundo123{
+.fundo23{
     background: url(assets/fundo2.png) no-repeat;
     background-size: cover;
     width: 98.8vw;
+    height: 86.5vh;
+}
+.fundo{
+    background: url(assets/fundo2.png) no-repeat;
+    background-size: cover;
+    width: 100vw;
     height: 86.5vh;
 }
 header{
@@ -37,6 +43,9 @@ header{
     background-color: var(--cabeçalho);
     display: flex;
     align-items: center;
+}
+.home{
+    margin-right: 20px;
 }
 nav{
     width: 100%;
@@ -151,4 +160,66 @@ section.colunas{
     background-color: var(--texto_alt);
     z-index: -1;
     opacity: 0.5;
+}
+.main_login{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    width: 35%;
+    height: 50%;
+    background-color: #6b0874d4;
+    color: var(--texto);
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.767);
+}
+.login h2{
+    align-self: center;
+    padding-top: 10px;
+    font-size: 30px;
+    text-shadow: 5px 3px 3px rgba(0, 0, 0, 0.721);
+}
+.login form{
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 25px;
+}
+.login form input{
+    width: 100%;
+    height: 30px;
+    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.703);
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding-left: 10px;
+}
+.login form label{
+    font-size: 20px;
+    text-shadow: 5px 3px 3px rgba(0, 0, 0, 0.685);
+}
+.login form button{
+    align-self: flex-end;
+    background-color: var(--botao2);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 15px 0px 5px 0px;
+    box-shadow: 5px 3px 3px #000000af;
+}
+.messageerror{
+    text-shadow: 5px 3px 3px rgba(0, 0, 0, 0.712);
+    font-size: 15px;
+}
+.login form button{
+    background-color: var(--botao2_hover);
+    transition: 0.3s;
 }

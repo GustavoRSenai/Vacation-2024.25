@@ -1,3 +1,5 @@
+<?php include('valida_sessao.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,8 +12,9 @@
 <body>
     <header>
         <nav class="navigation">
-            <div><a href="Index.html">Home</a></div>
-            <div><a href="page1.html">What have I done?</a></div>
+            <div ><a class="home" href="Index.php">Home</a>
+            <a href="page1.html">What have I done?</a></div>
+            <div><a href="logout.php">Logout</a></div>
         </nav>
     </header>
     <main class="fundo1">
