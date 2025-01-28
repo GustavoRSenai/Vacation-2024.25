@@ -1,7 +1,7 @@
 # 🏖️ Vacation 2024.25 🏖️
 
 
-## This repository is a activite to show what I have done on my vacation and remember HTML and CSS.
+## This repository is a activity to show what I have done on my vacation and remember HTML and CSS.
 
 
 ### First I did an high fidelity prototype about my site
