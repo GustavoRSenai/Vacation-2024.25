@@ -25,10 +25,16 @@ body{
     width: 100vw;
     height: 86.5vh;
 }
-.fundo123{
+.fundo23{
     background: url(assets/fundo2.png) no-repeat;
     background-size: cover;
     width: 98.8vw;
+    height: 86.5vh;
+}
+.fundo{
+    background: url(assets/fundo2.png) no-repeat;
+    background-size: cover;
+    width: 100vw;
     height: 86.5vh;
 }
 header{
