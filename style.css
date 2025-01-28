@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+:root{
+    --cabeçalho:#6B0874;
+    --texto:#f2f2f2;
+    --texto_hover:rgb(178, 177, 177);
+    --botao:#a539ae;
+    --botao_hover:#90369a;
+    --texto_alt: black;
+    --botao2:#ebe174;
+    --botao2_hover:#c5ba41;
+}
+*{
+    font-family: "Luckiest Guy", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(assets/fundo1.png) no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 86.5vh;
+}
+.fundo123{
+    background: url(assets/fundo2.png) no-repeat;
+    background-size: cover;
+    width: 98.8vw;
+    height: 86.5vh;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: var(--cabeçalho);
+    display: flex;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px 0 60px;
+
+}
+nav a{
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--texto);
+    text-align: center;
+    text-shadow: 5px 3px 3px black;
+    padding: 5px 10px 5px 10px ;
+    border-radius: 10px;
+    background-color: var(--botao);
+    box-shadow: 5px 3px 3px black;
+}
+nav a:hover{
+    background-color: var(--botao_hover);
+    color: var(--texto_hover);
+    transition: 0.3s;
+}
+.fundo1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txt{
+    font-size: 50px;
+    color: var(--texto);
+    text-align: center;
+    padding: 40px;
+    text-shadow: 5px 3px 3px black;
+}
+.fundo2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.txt2{
+    font-size: 50px;
+    color: var(--texto);
+    text-align: center;
+    padding: 40px;
+    text-shadow: 5px 3px 3px black;
+}
+.button{
+    width: 80%;
+    padding: 0 0px 200px 0px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.button a{
+    text-decoration: none;
+    color: var(--texto_alt);
+    padding: 15px 10px;
+    background-color: var(--botao2);
+    border-radius: 25px;
+    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.662);
+}
+.button a:hover{
+    background-color: var(--botao2_hover);
+    transition: 0.3s;
+}
+.produtos{
+    background-color: var(--texto);
+    width: 400px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* transformando em container */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.438);
+}
+/* transformar imagem em responsiva */
+.produtos img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+section.colunas{
+    display: flex;
+    padding: 0px 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+.blur{
+    width: 100%;
+    height: 210vh;
+    top: 0;
+    position: absolute;
+    background-color: var(--texto_alt);
+    z-index: -1;
+    opacity: 0.5;
+}
+.blur1{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    position: absolute;
+    background-color: var(--texto_alt);
+    z-index: -1;
+    opacity: 0.5;
+}
